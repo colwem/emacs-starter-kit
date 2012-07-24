@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: describe
+# key: describe
+# --
+describe "${m}" do
+  $0
+end

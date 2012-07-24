@@ -1,0 +1,12 @@
+[submodule "plugins/org-mode"]
+	path = plugins/org-mode
+	url = git://orgmode.org/org-mode.git
+[submodule "plugins/rhtml"]
+	path = plugins/rhtml
+	url = git://github.com/eschulte/rhtml.git
+[submodule "plugins/rinari"]
+	path = plugins/rinari
+	url = git://github.com/eschulte/rinari.git
+[submodule "plugins/yasnippet"]
+	path = plugins/yasnippet
+	url = git://github.com/capitaomorte/yasnippet.git
