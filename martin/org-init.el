@@ -2,14 +2,12 @@
 ;;;
 ;;; Org Mode
 ;;;
-(add-to-list 'load-path (expand-file-name "~/git/org"))
 (add-to-list 'auto-mode-alist '("\\.\\(org\\|org_archive\\|txt\\)$" . org-mode))
 
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/plugins/org-mode/lisp"))
 (require 'org-install)
 
 (setq org-log-done t)
-(setq org-agenda-files (quote("~/git/org/")))
 
 ;;
 ;; standard key bindings
@@ -36,7 +34,6 @@
 (setq org-default-notes-file "~/git/org/refile.org")
 
 (setq org-agenda-include-diary nil)
-(setq org-agenda-diary-file "~/git/org/diary.org")
 
 (setq org-capture-templates
       '(("t" "Todo" entry (file "~/git/org/refile.org")
